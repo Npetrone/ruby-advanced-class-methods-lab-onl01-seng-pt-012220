@@ -8,6 +8,7 @@ class Song
     song
   end
   
+<<<<<<< HEAD
   def self.new_by_name(name)
     song = self.new
     song.name = name
@@ -58,6 +59,12 @@ class Song
   end
 
 
+=======
+  def new_by_name(name)
+    name = self.new
+    
+  end
+>>>>>>> 47a30bb9f8b70e273e628325171bbd65464c0193
 
   def self.all
     @@all
